@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    font: normal 20px Poppins;
+    
+}
+
+.corpo {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow:  3px 3px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 700px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.title {
+    color: aliceblue;
+    margin: 10px;
+    
+}
+
+.footer {
+    color: aliceblue;
+    font-style: italic;
+    margin: 10px;
+}
+
+#manha {
+    margin: calc(55% - 350px);
+    
+}
+
+#msg {
+    
+    font-size: 30px;
+    font-weight: bold;
+}
